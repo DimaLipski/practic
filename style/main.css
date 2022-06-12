@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 1508px;
+    height: 900px;
+    background: #F5F5F5;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 57px;
+
+    color: #000000;
+
+}
+
+.separator {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: auto;
+    }
+
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0px 59px 0px;
+
+    color: #86878B;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content:hover{
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2)
+    
+    /* почему-то не работает */
+    /* transform: translateY(-15px);
+    border-radius: 5px; */
+}
+
+.content__title {
+    width: 370px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #333333;
+    border: 1px solid #F5F5F5;
+    margin: 0;
+    padding: 13px 0px 0px 0px;
+}
+
+.content__many {
+    width: 370px;
+    height: 100px;
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border: 1px solid #F5F5F5;
+    padding: 29px 0px 0px 0px; 
+    }
+
+.content__subtitle {
+    width: 370px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 14px 0px 0px 0px; 
+    margin: 0;
+    border: 1px solid #F5F5F5;
+    background: #333333;
+    }
+
+    .content__prg {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    width: 370px;
+    height: 50px;
+    margin: 0;
+    padding: 14px 0px 0px 0px; 
+    border: 1px solid #F5F5F5;
+    background: #FFFFFF;
+    }
+
+.var:hover {
+    transform: translateY(-20px);
+    
+}
